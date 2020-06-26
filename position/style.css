@@ -1,1 +1,16 @@
 /* Add your CSS Below */
+
+.one_box_b {
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+}
+.two_box_c {
+  position: fixed;
+  left: 230px;
+  bottom: 311px;
+}
+.three_box_a {
+  position: fixed;
+  left: 1200px;
+}
