@@ -1,1 +1,35 @@
 /* Add your CSS Below */
+
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  padding: 0.25em;
+  border-spacing: 15pt;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-color: green;
+  width: 100%;
+}
+th {
+  background-color: green;
+  color: white;
+}
+
+td {
+  height: auto;
+  text-align: right;
+}
+
+td:nth-of-type(1) {
+  text-align: right;
+}
+tr:nth-of-type(2) {
+  text-align: justify;
+}
+tr:nth-of-type(even) {
+  text-align: right;
+}
+tr:nth-of-type(odd) {
+  background: whitesmoke;
+  text-align: right;
+}
